@@ -1,0 +1,50 @@
+.foot{
+    padding: 0.5rem;
+    text-align: center;  
+}
+
+.listaGeral{
+    color: white;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+.paragrafo{
+    color: white;
+    text-align: right; 
+}
+
+.listaGeral li{
+    margin: 0 1em;
+}
+
+.listaGeral li:hover{
+    color: brown;
+}
+
+@media(max-width: 950px) {
+    .foot{
+            padding: 0.5rem;
+            text-align: left;  
+        }
+        
+        .listaGeral{
+            display: flex;
+            justify-content: right;
+            list-style-type: none;
+        }
+        
+        .listaGeral li{
+            margin: 0 1em;
+            color: white;
+        }
+        
+        .listaGeral li:hover{
+            color: brown;
+        }
+        .paragrafo{
+            color: white;
+            text-align: right; 
+        }
+    }

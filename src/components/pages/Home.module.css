@@ -1,0 +1,17 @@
+.primeiro{
+    color: rgb(76, 63, 255);
+    font-size: 5rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+@media(max-width: 900px){
+
+    .primeiro{
+        color: rgb(76, 63, 255);
+        font-size: 3rem;
+        font-style: oblique;
+        font-weight: bold;
+    }
+}
